@@ -29,8 +29,8 @@ print(y)
 
 
 """
-This is a case use for the simpleimputer class that we use for replacing any NaN value in the feature matrix
-using the method fit it calculates the value depending the method we chose, in this case 'mean', 
+This is a use case for the simpleimputer class that we use for replacing any NaN value in the feature matrix
+using the method fit, it calculates the value depending the method we chose, in this case 'mean', 
 and transform applies this changes in the feature's matrix
 """
 imputer = SimpleImputer(missing_values=np.nan, strategy='mean')
